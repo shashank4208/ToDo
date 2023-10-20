@@ -1,0 +1,34 @@
+.display-task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #82c0ff;
+}
+
+
+.display-task .text{
+    width: 40vw;
+    overflow:hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size:1.6rem;
+    color: #2c3e50;
+    /* background-color: aqua; */
+}
+
+.trash{
+    background: none;
+    border: none;
+}
+
+svg{
+    fill:#3968c6
+}
+
+svg:hover{
+    fill:red
+}

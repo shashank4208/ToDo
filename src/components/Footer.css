@@ -1,0 +1,13 @@
+.footer {
+  background-color: #333; /* Choose a background color for your footer */
+  color: #fff; /* Text color for the content in the footer */
+  padding: 20px;
+  text-align: center;
+  /* display: flex; */
+}
+
+
+.copyright {
+  font-size: 14px;
+  opacity: 0.8;
+}

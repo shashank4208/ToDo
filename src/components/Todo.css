@@ -1,0 +1,57 @@
+.add-task {
+  display: flex;
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.add-task input {
+  height: 50px;
+  font-size: 1.3rem;
+  margin-right: 0.8vw;
+  border-radius: 10px;
+  padding: 5px;
+  width: 20vw;
+}
+
+.add-task button {
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #457fca 0%,
+    #5691c8 51%,
+    #457fca 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.btn-grad:hover{
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.heading {
+  font-weight: bolder;
+}
