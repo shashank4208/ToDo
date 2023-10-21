@@ -68,9 +68,12 @@ function Home({ addtodolist, dolist, removeTask }) {
       <div className="main-division">
         <div className="center-division">
           <Todo addtodolist={addtodolist} />
+          <div className="right"> 
+          <h2 className="heading">Your ToDo List</h2>
           {dolist.map((element, i) => (
             <TodoItem key={i} {...element} onTrash={() => removeTask(i)} />
           ))}
+          </div>
         </div>
       </div>
       <Footer />

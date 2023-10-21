@@ -24,7 +24,6 @@ function Todo(props) {
         />
         <button className="btn-grad">+</button>
       </form>
-      <h2 className="text-center my-4 heading">Your ToDo List</h2>
     </div>
   );
 }
